@@ -11,8 +11,7 @@
 
 The solution is implemented in Pemilihan1.java, and below is screenshot of the result.
 
-![Screenshot](![Selection png](https://github.com/user-attachments/assets/463a1148-2a20-4d36-8a5c-54715e53d13e)
-)
+(![Selection png](https://github.com/user-attachments/assets/463a1148-2a20-4d36-8a5c-54715e53d13e)
 
 **Brief explanaton:** There are 4 main step: 
 1. Input all grades
