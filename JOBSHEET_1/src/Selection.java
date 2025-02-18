@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Selection {
-    static Scanner sigmaSkibidi = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
     static double quizScore, assignmentScore, midTermScore, finalScore, finalGrade;
     static String alphabetic, qualification;
@@ -33,16 +33,16 @@ public class Selection {
 
         do {
             System.out.print("Input Assignment Score: ");
-            assignmentScore = sigmaSkibidi.nextDouble();
+            assignmentScore = sc.nextDouble();
 
             System.out.print("Input Quiz Score: ");
-            quizScore = sigmaSkibidi.nextDouble();
+            quizScore = sc.nextDouble();
 
             System.out.print("Input Mid Term Exam Score: ");
-            midTermScore = sigmaSkibidi.nextDouble();
+            midTermScore = sc.nextDouble();
 
             System.out.print("Input Final Exam Score: ");
-            finalScore = sigmaSkibidi.nextDouble();
+            finalScore = sc.nextDouble();
 
             //Checking whether the score inputs are valid or no
             if (assignmentScore < 0 || assignmentScore > 100 || quizScore < 0 || quizScore > 100 || midTermScore < 0
