@@ -1,21 +1,31 @@
+import java.util.Scanner;
+
 public class ArrayObjects {
     public static void main(String[] args) {
-        Rectangle10[] rectangleArray = new Rectangle10[3];
+        Scanner sc = new Scanner(System.in);
 
-        rectangleArray[0] = new Rectangle10();
-        rectangleArray[0].length = 110;
-        rectangleArray[0].width = 30;
+        System.out.print("Enter the number of rectangles: ");
+        int size = sc.nextInt();
 
-        rectangleArray[1] = new Rectangle10();
-        rectangleArray[1].length = 80;
-        rectangleArray[1].width = 40;
+        Rectangle10[] rectangleArray = new Rectangle10[size];
 
-        rectangleArray[2] = new Rectangle10();
-        rectangleArray[2].length = 100;
-        rectangleArray[2].width = 20;
+        for (int i = 0; i < size; i++) {
+            rectangleArray[i] = new Rectangle10();
+            System.out.println("Rectangle " + (i + 1));
 
-        System.out.println("First rectangle, width: " + rectangleArray[0].width + ", length: " + rectangleArray[0].length);
-        System.out.println("Second rectangle, width: " + rectangleArray[1].width + ", length: " + rectangleArray[1].length);
-        System.out.println("Third rectangle, width: " + rectangleArray[2].width + ", length: " + rectangleArray[2].length);
-    }    
+            System.out.print("Input length: ");
+            rectangleArray[i].length = sc.nextInt();
+
+            System.out.print("Input width: ");
+            rectangleArray[i].width = sc.nextInt();
+        }
+
+        System.out.println("\nDetails of Rectangles:");
+        for (int i = 0; i < size; i++) {
+            System.out.println("Rectangle " + (i + 1));
+            System.out.println("Width: " + rectangleArray[i].width + ", Length: " + rectangleArray[i].length);
+        }
+
+        sc.close();
+    }
 }
