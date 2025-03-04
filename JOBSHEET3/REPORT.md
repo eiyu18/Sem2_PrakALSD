@@ -3,7 +3,7 @@
 | NIM |  1234567|
 | Nama |  Eiyu Azizuly Efendi |
 | Kelas | TI - 1I |
-| Repository | [link]  |
+| Repository | [link] (https://github.com/eiyu18/Sem2_PrakALSD)  |
 
 # Labs #1 Array Of Objects
 
