@@ -3,7 +3,7 @@
 | NIM |  244107020181 |
 | Nama |  Eiyu Azizuly Efendi |
 | Kelas | TI - 1I |
-| Repository | [link] () |
+| Repository | [link] (https://github.com/eiyu18/Sem2_PrakALSD/edit/main/JOBSHEET_6) |
 
 # Labs #6 SORTING (BUBBLE, SELECTION, DAN INSERTION SORT)
 
