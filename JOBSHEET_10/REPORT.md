@@ -10,6 +10,7 @@
 ## 2.1 Experiment 1: Assignment Submission 
 
 ![image](https://github.com/user-attachments/assets/a6473886-1207-44b0-9677-ed1b732afb46)
+
 ![image](https://github.com/user-attachments/assets/20d3c7f9-c8fa-436b-9dd7-80cdf5e258c8)
 
 **Question:** 
@@ -20,12 +21,18 @@
    The program will crash
 4. The stack can store 5 student assignments in the current implementation.
 5. i add new method in StudentAssignmentstack10.java
+   
    ![image](https://github.com/user-attachments/assets/848b9ea2-dedb-463d-8f16-9120ce88269c)
+   
    modify the main code
+   
    ![image](https://github.com/user-attachments/assets/0821f1f2-aebf-4237-9cd1-7b406302a517)
+   
    result
+   
    ![image](https://github.com/user-attachments/assets/795fb86d-28e5-4072-ba12-8300d62fa058)
-6.
+   
+
 7. Browser History: The "Back" button uses a stack to revisit the most recent page.
    
 
@@ -52,8 +59,11 @@
 ## Assignment
 
 ![image](https://github.com/user-attachments/assets/fe9128fc-5165-4097-81fd-ecf62cf2191e)
+
 ![image](https://github.com/user-attachments/assets/0eca1760-e771-42f2-83c3-ca55c6f827da)
+
 ![image](https://github.com/user-attachments/assets/48283d89-9405-47d7-893e-5891a84635b2)
+
 ![image](https://github.com/user-attachments/assets/c1efabba-2413-4b64-844c-b148ea3a927f)
 
 
