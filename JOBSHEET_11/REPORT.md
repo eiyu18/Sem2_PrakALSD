@@ -3,7 +3,7 @@
 | NIM |  244107020181 |
 | Nama |  Eiyu Azizuly Efendi |
 | Kelas | TI - 1I |
-| Repository | [link] (https://github.com/jti-polinema/-01-contoh-laporan-react) |
+| Repository | [link] (https://github.com/eiyu18/Sem2_PrakALSD/blob/main/JOBSHEET_11/REPORT.md) |
 
 # Labs #11 QUEUE 
 
