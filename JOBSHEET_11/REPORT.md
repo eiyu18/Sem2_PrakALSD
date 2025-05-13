@@ -78,6 +78,22 @@ The solution is implemented in Student.java, StudentQueue.java, StudentQueueMain
 
 ## 2.3 Assignment 
 
+![Screenshot 2025-05-13 225855](https://github.com/user-attachments/assets/6a939e8d-a28f-4cf9-8485-997151de42a0)
+
+
+![Screenshot 2025-05-13 230053](https://github.com/user-attachments/assets/36d4c013-e041-4c8a-9715-9f9fb8f5382f)
+
+
+![Screenshot 2025-05-13 230130](https://github.com/user-attachments/assets/62351583-017c-4234-be32-d49549353502)
+
+
+![Screenshot 2025-05-13 230205](https://github.com/user-attachments/assets/8d77dae5-7af3-4e5d-8dc8-7c88ddf57cf6)
+
+
+
+
+
+
 
 
 
