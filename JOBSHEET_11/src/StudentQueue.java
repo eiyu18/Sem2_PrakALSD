@@ -10,64 +10,73 @@ public class StudentQueue {
         rear = -1;
     }
 
-    boolean isFull(){
-        if(size == max) {
+    boolean isFull() {
+        if (size == max) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
-    boolean isEmpty(){
-        if(size == 0) {
+    boolean isEmpty() {
+        if (size == 0) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
-    void enqueue(Student dt){
-        if(isFull()){
-           System.out.println("Queue is full!!!");
-           return; 
+    void enqueue(Student dt) {
+        if (isFull()) {
+            System.out.println("Queue is full!!!");
+            return;
         }
-        rear = (rear+1)%max;
+        rear = (rear + 1) % max;
         data[rear] = dt;
         size++;
         System.out.printf("%s is successfully added at index %d\n", dt.name, rear);
     }
 
-    Student dequeue(){
-        if(isEmpty()){
+    Student dequeue() {
+        if (isEmpty()) {
             System.out.println("Queue is empty!!!");
             return null;
         }
         Student dt = data[front];
-        front = (front+1)%max;
+        front = (front + 1) % max;
         size--;
         return dt;
     }
 
-    void peek(){
-        if(!isEmpty()) {
+    void peek() {
+        if (!isEmpty()) {
             System.out.println("Front data: ");
             data[front].print();
-        }else{
+        } else {
             System.out.println("Queue is empty!!!");
         }
     }
 
-    void print(){
-        if(isEmpty()) {
+    void print() {
+        if (isEmpty()) {
             System.out.println("Queue is empty!!!");
             return;
         }
         int i = front;
-        while(i != rear){
+        while (i != rear) {
             data[i].print();
-            i = (i+1)%max;
+            i = (i + 1) % max;
         }
         data[i].print();
-        System.out.println("Number of element: "+size);
+        System.out.println("Number of element: " + size);
+    }
+
+    void viewRear() {
+        if (!isEmpty()) {
+            System.out.println("Rear data: ");
+            data[rear].print();
+        } else {
+            System.out.println("Queue is empty!!!");
+        }
     }
 }
