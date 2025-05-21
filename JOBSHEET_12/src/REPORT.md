@@ -1,13 +1,13 @@
 |  | Algorithm and Data Structure |
 |--|--|
-| NIM |  1234567|
-| Nama |  You know who |
+| NIM |  244107020181 |
+| Nama |  Eiyu Azizuly Efendi |
 | Kelas | TI - 1I |
-| Repository | [link] (https://github.com/jti-polinema/-01-contoh-laporan-react) |
+| Repository | [link] () |
 
-# Labs #1 Programming Fundamentals Review
+# Labs #12 LINKED LIST 
 
-## 2.1.1. Selection Solution
+## Experiment 1: Implementing Single Linked List  
 
 The solution is implemented in Pemilihan1.java, and below is screenshot of the result.
 
